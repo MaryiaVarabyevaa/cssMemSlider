@@ -59,3 +59,16 @@ body {
     transition: all .6s ease;
     border-radius: 0.9rem;
 }
+
+#r1:checked ~.s1,  #r1:checked ~.a1 {
+    margin-left: 0;
+ }
+ #r2:checked ~ .s1, #r2:checked ~ .a1 {
+    margin-left: -100%;
+ }
+ #r3:checked ~.s1, #r3:checked ~.a1 {
+    margin-left: -200%;
+ }
+ #r4:checked ~ .s1,  #r4:checked ~ .a1 {
+    margin-left: -300%;
+ }
