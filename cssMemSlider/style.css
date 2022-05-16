@@ -88,7 +88,7 @@ body {
 .nav-btn:active {
     transition: all .1s ease-in-out;
     background-color: var(--active-color);
-    border: 2px solid var(--active-color);
+    border: 0.1rem solid var(--active-color);
 }
 
 #r1:checked ~.s1, #r1:checked ~.a1 {
@@ -103,7 +103,7 @@ body {
  #r4:checked ~.s1,  #r4:checked ~.a1 {
     margin-left: -300%;
  }
- 
+
  #r1:checked ~ .slider__navigation .label1, #r2:checked ~ .slider__navigation .label2, #r3:checked ~ .slider__navigation .label3, #r4:checked ~ .slider__navigation .label4 {
     background-color: var(--checked-color);
     border: 0.1rem solid var(--checked-color);
