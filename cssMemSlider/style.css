@@ -22,7 +22,7 @@ body {
 .slider {
     overflow: hidden;
     max-width: 50rem;
-    height: 40rem;
+    max-height: 40rem;
 }
 .slider__items {
      display: flex;
